@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Test Prose Post
 ---
 ## A New Post Written in Prose
