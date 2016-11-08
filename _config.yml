@@ -1,0 +1,47 @@
+# Website details
+name: "NK"
+description: "This is a test description of my blog"
+email: "nkroncke@outlook.com"
+author: "author"
+lang: "eng"
+locale: "us"
+
+# Jekyll
+paginate: 10
+highlighter: ""
+markdown: kramdown
+gems: [jekyll-paginate]
+timezone: America/New-York
+paginateLabel: page
+paginate_path: "page/:num"
+permalink: /:title
+baseurl: ""
+
+# Includes
+addthisId: ""
+disqusUsername: ""
+googleAnalyticsId: ""
+
+# Search engine verifications
+bing: ""
+yandex: ""
+google: ""
+
+# Default yaml front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "article"
+
+#Sitemap
+#sitemap:
+#    file: "/sitemap.xml"
+#    exclude:
+#        - "/404.html"
+#    include_posts:
+#        - "/index.html"
+#    change_frequency_name: "daily"
+#    priority_name: "1.00"
